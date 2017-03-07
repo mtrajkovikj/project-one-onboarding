@@ -19,6 +19,8 @@
 		<header>
 			<h1>Welcome</h1>
 		</header>
+		<main>
+			<section id="intro">
 		<h3>Trying to build muscle but not seeing results?</h3>
 		<p>Well, this might be your lucky day! We are giving away the following:</p>
 			<ul>
@@ -28,6 +30,21 @@
 				<li>Bodybuilding.com T-Shirt</li>
 			</ul>
 		<h3>Enter your details below for a chance to win:</h3>
+		</section>
+		<section id="info">
+			<form name ="info-form" id="info-form" method="get" action="#null">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+       					<input type="text" name="name" id="name" autocomplete="name"/>
+        			</li>
+        			<li> 
+        				<label for="email">Email</label>
+        				<input type="email" name="email" id="email" autocomplete="email" placeholder="you@example.com" pattern="^.+@.+$"/>
+        			</li>
+        		</ul>
+        </form>
+        </section>
 	</div>
 </body>
 </html>
