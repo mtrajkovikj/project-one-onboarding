@@ -1,3 +1,13 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+
 html {
   font-size: 1.125em;  /* ~ 18px */
   line-height: 1.222em; /* ~ 22px - 1 gridline */
@@ -32,6 +42,56 @@ h1 {
   padding: 1.222em;
   padding-bottom: 0.666em;
   color: #FFFFFF;
+  font-size: 2.444em;
   line-height: 1.222em;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.0666em;
+}
+h2 {
+  font-size: 2em;
+  line-height: 1.222em;
+  padding-top: 0.444em;
+  padding-left: 0.333em;
+  text-align: center;
+}
+h3 {
+  font-size: 1.777em;
+  line-height: 1.222em;
+  padding-top: 0.444em;
+  padding-left: 0.333em;
+  text-align: center;
+}
+li {
+  padding-bottom: 0.333em; 
+  padding-top: 0.333em;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 1.222em;
+}
+p {
+  padding-bottom: 0.666em;
+  padding-top: 0.666em;
+  padding-left: 0.333em;
+  text-align: center;
+}
+label {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+input {
+  padding: 1.375em;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-align: inherit;
+  background-color: #fffbf8;
+}
+input[type="submit"] {
+  border: 0;
+  font-family: inherit;
+  text-align: center;
+  background-color: #A3A9AA;
 }
