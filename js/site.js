@@ -8,3 +8,8 @@ jQuery(function($) {
    showmsg(user);
  });
 
+  function showmsg(user){
+   var msg='Hi, '+user+'! Thank you for entering the contest! Good luck!';
+   $('#button-message').append(msg);
+ }
+});
