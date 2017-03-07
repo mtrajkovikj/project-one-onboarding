@@ -21,7 +21,7 @@
 		</header>
 		<main>
 			<section id="intro">
-		<h3>Trying to build muscle but not seeing results?</h3>
+		<h2>Trying to build muscle but not seeing results?</h2>
 		<p>Well, this might be your lucky day! We are giving away the following:</p>
 			<ul>
 				<li>3.5 Lbs. Optimum Nutrition Gold Standard 100% Whey</li>
@@ -33,18 +33,28 @@
 		</section>
 		<section id="info">
 			<form name ="info-form" id="info-form" method="get" action="#null">
-				<ul>
+				<ol>
 					<li>
 						<label for="name">Name</label>
-       					<input type="text" name="name" id="name" autocomplete="name"/>
+       					<input type="text" name="name" id="name" autocomplete="name" />
         			</li>
         			<li> 
         				<label for="email">Email</label>
-        				<input type="email" name="email" id="email" autocomplete="email" placeholder="you@example.com" pattern="^.+@.+$"/>
+        				<input type="email" name="email" id="email" autocomplete="email" placeholder="you@example.com" pattern="^.+@.+$" />
         			</li>
-        		</ul>
+        			<li> 
+                		<label for="number">Phone</label>
+                		<input type="tel" name="number" id="number" autocomplete="tel" placeholder="xxx-xxx-xxxx" />
+              		</li>
+              		<li>
+                		<input type="submit" name="submit" id="submit" value="Enter" />
+              		</li>
+        		</ol>
         </form>
         </section>
+        </main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
 	</div>
 </body>
 </html>
