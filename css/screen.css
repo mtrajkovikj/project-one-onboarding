@@ -1,0 +1,37 @@
+html {
+  font-size: 1.125em;  /* ~ 18px */
+  line-height: 1.222em; /* ~ 22px - 1 gridline */
+  letter-spacing: 0.03125em;
+  padding-top: 0;
+  font-family: 'Cuprum', sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #EFF7FF;
+  color: #1D1D1E;
+}
+img, video {
+  display: block;
+  max-width: 100%;
+}
+header {
+  background: url(../images/header2.jpg) #49311c;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+header {
+  margin: -0.916em;
+  margin-top: -1.222em;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
+}
+h1 {
+  text-align: center;
+  padding: 1.222em;
+  padding-bottom: 0.666em;
+  color: #FFFFFF;
+  line-height: 1.222em;
+  letter-spacing: 0.0625em;
+}
